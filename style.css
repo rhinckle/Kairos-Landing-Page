@@ -1,9 +1,9 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 20px;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
+  grid-gap: 20px; /* Set the gap between images */
+  grid-auto-rows: 200px; /* Set the height of each row to a fixed value */
+  grid-column-gap: 20px; /* Set the gap between columns equal to gap between images */
 }
 
 @media (min-width: 768px) {

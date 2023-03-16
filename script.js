@@ -5,3 +5,4 @@ tiles.forEach((tile) => {
   const aspectRatio = img.naturalWidth / img.naturalHeight;
   tile.style.setProperty('--aspect-ratio', aspectRatio);
 });
+
